@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CC613052AD73BC800470240 /* TableViews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CC613032AD73BC800470240 /* TableViews.xcdatamodeld */; };
+		8CC6130C2AD7422100470240 /* Pais+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6130A2AD7422100470240 /* Pais+CoreDataClass.swift */; };
+		8CC6130D2AD7422100470240 /* Pais+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6130B2AD7422100470240 /* Pais+CoreDataProperties.swift */; };
 		ACDF9292240508CD0013A749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF9291240508CD0013A749 /* AppDelegate.swift */; };
 		ACDF9294240508CD0013A749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF9293240508CD0013A749 /* SceneDelegate.swift */; };
 		ACDF9296240508CD0013A749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF9295240508CD0013A749 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CC613042AD73BC800470240 /* TableViews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableViews.xcdatamodel; sourceTree = "<group>"; };
+		8CC6130A2AD7422100470240 /* Pais+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pais+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8CC6130B2AD7422100470240 /* Pais+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pais+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		ACDF928E240508CD0013A749 /* TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDF9291240508CD0013A749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACDF9293240508CD0013A749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CC613022AD73B8D00470240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CC6130A2AD7422100470240 /* Pais+CoreDataClass.swift */,
+				8CC6130B2AD7422100470240 /* Pais+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ACDF9285240508CD0013A749 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +71,7 @@
 		ACDF9290240508CD0013A749 /* TableViews */ = {
 			isa = PBXGroup;
 			children = (
+				8CC613022AD73B8D00470240 /* Model */,
 				ACDF9291240508CD0013A749 /* AppDelegate.swift */,
 				ACDF9293240508CD0013A749 /* SceneDelegate.swift */,
 				ACDF9295240508CD0013A749 /* ViewController.swift */,
@@ -63,6 +79,7 @@
 				ACDF929A240508CE0013A749 /* Assets.xcassets */,
 				ACDF929C240508CE0013A749 /* LaunchScreen.storyboard */,
 				ACDF929F240508CE0013A749 /* Info.plist */,
+				8CC613032AD73BC800470240 /* TableViews.xcdatamodeld */,
 			);
 			path = TableViews;
 			sourceTree = "<group>";
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDF9296240508CD0013A749 /* ViewController.swift in Sources */,
+				8CC613052AD73BC800470240 /* TableViews.xcdatamodeld in Sources */,
 				ACDF9292240508CD0013A749 /* AppDelegate.swift in Sources */,
+				8CC6130C2AD7422100470240 /* Pais+CoreDataClass.swift in Sources */,
+				8CC6130D2AD7422100470240 /* Pais+CoreDataProperties.swift in Sources */,
 				ACDF9294240508CD0013A749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +360,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CC613032AD73BC800470240 /* TableViews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CC613042AD73BC800470240 /* TableViews.xcdatamodel */,
+			);
+			currentVersion = 8CC613042AD73BC800470240 /* TableViews.xcdatamodel */;
+			path = TableViews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ACDF9286240508CD0013A749 /* Project object */;
 }
